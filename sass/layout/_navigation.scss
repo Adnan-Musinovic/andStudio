@@ -1,0 +1,12 @@
+.nav {
+    & ul {
+        display: flex;
+        list-style: none;
+    }
+
+    & li {
+        &:not(:last-child) {
+            margin-right: 1.2rem;
+        }
+    }
+}
