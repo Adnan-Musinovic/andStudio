@@ -1,8 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Maven+Pro:wght@400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 
 body {
   background-color: #fefefe;
-  color: #111; }
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #0A0A0A;
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.wrapper {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #0A0A0A;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+}

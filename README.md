@@ -10,5 +10,6 @@ Technologies I used:
 -HTML5
 -SCSS
 -JavaScript
+-Mobile First
 -FTP
 -Git

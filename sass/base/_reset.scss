@@ -4,7 +4,31 @@
     box-sizing: border-box;
 }
 
+html,
 body {
-    background-color: #fefefe;
-    color: #111;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: $color-primary;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: $color-secondary;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
 }
